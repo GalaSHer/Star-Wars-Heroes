@@ -1,0 +1,37 @@
+.pagesWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  margin: 30px 0;
+  font-size: clamp(0.75rem, 0.3056rem + 2.2222vw, 2.25rem);
+}
+
+.pagesNumber {
+  margin: 0 10px;
+  background-color: transparent;
+  color: #ffff;
+}
+
+.pagesBtn {
+  background-color: transparent;
+  width: 15%;
+  min-width: 75px;
+  color: #ffff;
+  --primary-color: #3b82f6;
+  --hovered-color: #5c47c8;
+  border: var(--primary-color) solid 2px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: clamp(0.75rem, 0.3056rem + 2.2222vw, 2.25rem);
+}
+
+.pagesBtn:disabled {
+  cursor: not-allowed;
+}
+
+.pagesBtn:hover {
+  border: var(--hovered-color) solid 2px;
+}
