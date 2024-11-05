@@ -15,6 +15,7 @@
 - TypeScript
 - CSS
 - API
+- webpack
 
 ### Запуск проекта
 npm install
